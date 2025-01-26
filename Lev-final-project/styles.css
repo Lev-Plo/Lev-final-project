@@ -1,0 +1,68 @@
+:root {
+    --brand-blue-color: #012D63;
+    --brand-white-color: #FFF;
+    --brand-grey-text-color: #C7C7C7;
+
+}
+.header {
+    background-color: var(--brand-blue-color);
+
+    .container {
+        display: flex;
+    }
+}
+.header-link {
+    text-decoration: none;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: nowrap
+}
+.header-item {
+    list-style-type: none;
+    margin: 0 29px;
+}
+.header-list {
+    color: var(--brand-grey-text-color);
+    display: flex;
+    row-gap: 29px;
+    flex-direction: row;
+}
+.hero {
+    background-image: url(./images/pic-shoe.webp);
+}
+.hero-title {
+    color: var(--brand-white-color);
+
+}
+.hero-name {
+    color: var(--brand-white-color);
+
+}
+.header-link:nth-child(1) {
+    color: var(--brand-white-color);
+}
+.header-name:nth-child(7) {
+    margin: 73px;
+}
+.header-item:nth-child(2) {
+    margin-right: 29px;
+}
+.header-item:nth-child(3) {
+    margin-right: 29px;
+}
+.header-item:nth-child(4) {
+    margin-right: 29px;
+}
+.header-item:nth-child(5) {
+    margin-right: 29px;
+}
+.header-item:nth-child(6) {
+    margin-right: 20px;
+}
+.header-item:nth-child(7) {
+    margin-right: 73px;
+}

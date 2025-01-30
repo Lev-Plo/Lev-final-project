@@ -6,6 +6,8 @@
 }
 .header {
     background-color: var(--brand-blue-color);
+    padding-top: 16px;
+    padding-bottom: 17px;
 
     .container {
         max-width: 1110px;  
@@ -53,9 +55,9 @@
 .hero {
     background-image: url(./images/picture-nike.webp);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 858px;
     background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 183px;
 }
 .hero-photo {
     margin-left: 170px;
@@ -120,12 +122,17 @@
     background-image: url(./images/purple-to-blue.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 606px;
+    /* height: 606px; */
     flex-shrink: 0;
     display: flex;
     align-content: center;
-    padding: 105px 164px;
+    /* padding: 105px 164px; */
     list-style-type: none;
+    padding-top: 105px;
+    /* padding-right: 165px; */
+    padding-bottom: 105px;
+    /* padding-left: 165px; */
+    justify-content: center;
 
     .container {
         width: 1110px;
@@ -194,11 +201,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 520px;
+    /* width: 100%;
+    height: 520px; */
     flex-shrink: 0;
     /* display: flex;
     flex-direction: row; */
+    padding-top: 24px;
+    padding-bottom: 114px;
 }
 .reviews-photo {
     position: absolute;
@@ -260,4 +269,94 @@
     display: flex;
     gap: 93px;
     justify-content: center;
+}
+.order {
+    list-style-type: none;
+    background-image: url(./images/back-order.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 21px;
+    padding-bottom: 37px;
+}
+.order-name {
+    color: var(--brand-white-color);
+    display: flex;
+    justify-content: center;
+}
+/* /* ul .order-list:nth-child(1) {
+    width: 690px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--brand-white-color);
+}
+.order-input:nth-child(1) {
+    width: 690px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--brand-white-color);
+}
+.order-input:nth-child(2) {
+    width: 580px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--brand-white-color);
+} */
+
+.order-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+.order-item {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+.order-input {
+    /* width: 690px;
+    height: 60px; */
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--brand-white-color);
+    border: none;
+    /* padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 25px; */
+    /* font-size: 18px; */
+}
+.order-item:nth-of-type(1) .order-input {
+    width: 690px;
+    height: 60px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 25px;
+}
+.order-item:nth-of-type(2) .order-input {
+    width: 580px;
+    height: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 24px;
+}
+.order-item:nth-of-type(3) .order-input {
+    width: 580px;
+    height: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 24px;
+}
+.order-item:nth-of-type(4) .order-input {
+    width: 580px;
+    height: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 24px;
 }

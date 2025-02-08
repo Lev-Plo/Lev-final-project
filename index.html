@@ -91,19 +91,51 @@
                     </li>
                 </ul>
 
-                <div class="reviews-content">
-                    <div class="reviews-box">
-                        <p class="reviews-text">Sneakers are very comfortable and well painted, nothing has worn off in
-                            a year.</p>
-                    </div>
-                    <div class="reviews-box">
-                        <p class="reviews-text">I'm very happy with this color scheme. They match all my clothes.</p>
-                    </div>
-                    <div class="reviews-box">
-                        <p class="reviews-text">Just right if you need to go to a party. I use them actively, the paint
-                            is super.</p>
-                    </div>
-                </div>
+                <ul class="reviews-content">
+                    <li class="reviews-card">
+                        <div class="review">
+                            <p class="reviews-text">Sneakers are very comfortable and well painted, nothing has worn off in
+                                a year.</p>
+                            <p class="review-date">25.11</p>
+                        </div>
+                        <div class="author">
+                            <img class="author-photo" src="./images/reviews-one.webp" alt="">
+                            <div class="reviews-box">
+                                <p class="author-name">John Teylor</p>
+                                <p class="author-date">With us from 2018</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reviews-card">
+                        <div class="review">
+                            <p class="reviews-text">I'm very happy with this color scheme.
+                                They match all my clothes.</p>
+                            <p class="review-date">05.01</p>
+                        </div>
+                        <div class="author">
+                            <img class="author-photo" src="./images/reviews-two.webp" alt="">
+                            <div class="reviews-box">
+                                <p class="author-name">Elizabeth Garsia</p>
+                                <p class="author-date">With us from 2020</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reviews-card">
+                        <div class="review">
+                            <p class="reviews-text">Just right if you need to go to a party.
+                                I use them actively, the paint is super.</p>
+                            <p class="review-date">18.06</p>
+                        </div>
+                        <div class="author">
+                            <img class="author-photo" src="./images/reviews-three.webp" alt="">
+                            <div class="reviews-box">
+                                <p class="author-name">Tom Maquare</p>
+                                <p class="author-date">With us from 2019</p>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="order">
@@ -111,7 +143,7 @@
                 <h2 class="order-name">Order</h2>
                 <ul class="order-list">
                     <li class="order-item">
-                        <input class="order-input" type="text" id="textInput" placeholder="Write your email">
+                        <input class="order-input" type="text" id="textInput" placeholder="Write your email                                                     Confirm">
                     </li>
                     <li class="order-item">
                         <input class="order-input" type="text" id="textInput" placeholder="Your Country">
@@ -131,15 +163,28 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="footer-left">
-                <h2 class="footer-item">Have a question?</h2>
-                <h2 class="footer-item">Have a proposal for cooperation?</h2>
-                <h2 class="footer-item">Advertising questions?</h2>
+            <div class="footer-support">
+                <div class="footer-questions">
+                    <p class="footer-item">Have a question?</p>
+                    <p class="footer-item">Have a proposal for cooperation?</p>
+                    <p class="footer-item">Advertising questions?</p>
+                </div>
+                <div class="footer-emails">
+                    <a class="footer-link" href="">ColoRawe_support@gmail.com</a>
+                    <a class="footer-link" href="">ColoRawe_Cooperation@gmail.com</a>
+                    <a class="footer-link" href="">ColoRawe_Advertising@gmail.com</a>
+                </div>
             </div>
-            <div class="footer-right">
-                <h2 class="footer-item">ColoRawe_support@gmail.com</h2>
-                <h2 class="footer-item">ColoRawe_Cooperation@gmail.com</h2>
-                <h2 class="footer-item">ColoRawe_Advertising@gmail.com</h2>
+            <hr class="footer-line">
+            <div class="footer-info">
+                <div class="info-left">
+                    <p class="info-version">2022 ColoRawe @All rights reserved</p>
+                    <p class="info-version">United States</p>
+                </div>
+                <div class="info-right">
+                    <img src="./images/nike.webp" alt="">
+                    <p class="info-name">С&R</p>
+                </div>
             </div>
         </div>
     </footer>
